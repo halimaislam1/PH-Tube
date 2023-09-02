@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .body{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="text-red-400  text-2xl font-bold">Discuss the scope of var, let, and const?</li>
+        <p class="text-black font-semibold"> => var: In JavaScript, variables declared with the var keyword have a
+            function-level or global scope, depending on where they are declared.If you declare a var variable inside a
+            function, it is only accessible within that function. <br>
+            => let: The let keyword is used to declare variables in JavaScript with block scope. Variables declared with
+            let have block-level scope, which means they are limited to the block in which they are defined.<br>
+            => const: The const keyword is used to declare variables with block scope which means that they are limited
+            to the block (enclosed by curly braces {}) in which they are defined. This includes functions, loops, and
+            any other code blocks.
+        </p>
+        <li class="text-red-400  text-2xl font-bold">Tell us the use cases of null and undefined?</li>
+        <p class="text-black font-semibold"> => undefined:
+            Default Value: Variables that have been declared but have not been assigned a value are automatically
+            initialized with undefined.
+            Function Return: If a function does not explicitly return a value, it returns undefined by default.
+            Parameter Missing: When a function is called with fewer arguments than declared parameters, the missing
+            parameters are set to undefined.
+            Object Properties: When you try to access an object property that doesn't exist, it returns undefined.
+            Implicit Absence: It often indicates the absence of a value or the absence of an expected <br>
+           => Null:
+           Explicit Absence: It is used to explicitly indicate that a variable, object property, or array element intentionally lacks a value.
+           Object Initialization: It can be assigned to object properties or variables to represent the absence of a meaningful value.
+           Comparison: It can be used when you want to check if a variable or object property has been intentionally set to null.
+        </p>
+        <li class="text-red-400  text-2xl font-bold">What do you mean by REST API?</li>
+        <p class="text-black font-semibold">=> Rest API:  A REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for designing web services that allow different software applications to communicate with each other over the internet. REST APIs use standard HTTP methods like GET, POST, PUT, and DELETE to perform actions on resources, such as retrieving, creating, updating, or deleting data. They are designed to be simple, scalable, and stateless, making them a popular choice for building web services and enabling data exchange between clients (e.g., web browsers, mobile apps) and servers.</p>
+    </ul>
+ 
+</body>
+
+</html>
